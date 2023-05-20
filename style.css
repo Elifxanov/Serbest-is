@@ -1,0 +1,88 @@
+header {
+    background-color: rgb(199, 195, 195);
+    border-bottom: solid black 3px;
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 30px;
+}
+
+.topmenu {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+.topmenu>a {
+    color: rgb(229, 144, 6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.rightmenu>a {
+    margin-left: 35px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.textarea {
+    padding-top: 150px;
+    padding-left: 25px;
+    padding-bottom: 80px;
+    width: 40%;
+    font-size: 18px;
+}
+
+button {
+    background-color: orangered;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.maintext {
+    width: 50%;
+}
+
+.maintext>h1 {
+    text-align: center;
+    color: rgb(251, 132, 6);
+    font-weight: bolder;
+}
+
+.picture {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.box {
+    border: 3px rgb(191, 184, 184) outset;
+    padding: 5px;
+}
